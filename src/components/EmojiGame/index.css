@@ -1,0 +1,23 @@
+.GameContainer {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  height: 100vh;
+  border: solid 1px #9796f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emojiContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 600px) {
+  .emojiContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
